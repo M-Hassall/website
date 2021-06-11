@@ -1,0 +1,26 @@
+body{
+    background-color: lightsteelblue;
+}
+h1{
+    color: red;
+    font: size 36px;
+}
+#wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+#subwrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: right auto;
+    align-items: right;
+    margin:auto;
+}
+.first{
+    width: 40%;
+}
+#second{
+    width: 40%
+}

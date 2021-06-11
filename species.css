@@ -1,0 +1,26 @@
+body{background-color:lime;}
+h1{
+    color:red;
+    font-size:36px;
+}
+p{
+    color:black}
+#wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+#subwrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: right auto;
+    align-items: right;
+    margin:auto;
+}
+.first{
+    width: 40%;
+}
+#second{
+    width: 40%
+}
